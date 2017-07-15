@@ -1,0 +1,123 @@
+/*big photo box up top */
+
+#big-box {
+	
+	
+	height: 400px;
+	background-image: url("ces-stock.jpg");
+	background-size: cover;
+	
+	font-family: 'Arvo', serif;
+}
+
+/*veggies photo */
+
+#vphoto {
+	
+	width: 100%;
+	height: auto;
+	
+}
+
+
+
+
+/* Veggie K logo */
+
+#logo-top-left {
+	font-size: 8vw;
+	font-family: 'Arvo', serif;
+	color: white;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	
+	
+	}
+	
+/*address right below it */
+
+#doug_name {
+	position: absolute; 
+	margin-top: 200px;
+	color: white;
+	font-size: 80px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#phone-number {
+	position: absolute;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	top: 300px;
+}
+
+#doug_name {
+	font-size: 20px;
+	top: 150px;
+}
+
+/* Paragraph description */
+#paragraph {
+	
+	
+	margin-top: 20px;
+	width: 60%;
+	clear: both;
+	margin: 0 auto;
+	float: left;
+}
+
+
+#paragraphInside{
+	margin-top: 50px;
+	clear: both;
+	font-size: 2.5vw;
+	font-family:  'Aldrich', sans-serif;
+	
+}
+
+@media only screen and (max-width: 1220px) {
+	
+
+	
+	
+	
+}
+
+@media only screen and (max-width: 600px) {
+
+
+#big-box {
+	height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+#address {
+	font-size: 20px;
+	top: 150px;
+}
+
+#phone-number {
+	font-size: 20px;
+	top: 200px;
+	
+}
+
+	
+	
+	
+}
+

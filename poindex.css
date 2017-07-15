@@ -1,0 +1,175 @@
+/*big photo box up top */
+
+#big-box {
+	
+	
+	height: 400px;
+	background-image: url("ces-stock.jpg");
+	background-size: cover;
+	
+	font-family: 'Arvo', serif;
+}
+
+/*veggies photo */
+
+#vphoto {
+	
+	width: 100%;
+	height: auto;
+	
+}
+
+
+
+
+/* Veggie K logo */
+
+#logo-top-left {
+	font-size: 8vw;
+	font-family: 'Arvo', serif;
+	color: white;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	
+	
+	}
+
+#llc {
+	font-size: 6vw;
+}
+	
+/*address right below it */
+
+#doug_name {
+	position: absolute; 
+	margin-top: 200px;
+	color: white;
+	font-size: 80px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#phone-number {
+	position: absolute;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	top: 300px;
+}
+
+#doug_name {
+	font-size: 20px;
+	top: 150px;
+}
+
+/* Paragraph description */
+#paragraph {
+	
+	
+	margin-top: 40px;
+	width: 60%;
+	clear: both;
+	float: left;
+	margin-left: 3%;
+	font-size: 2vw;
+	font-family:  'Aldrich', sans-serif;
+}
+
+
+/*purple box for form */
+#form-box {
+	border-radius: 25px;
+	margin-top: 50px;
+	width: 33vw;
+	height: 37vw;
+	background: linear-gradient(black, purple) ;
+	float: left;
+	color: white;
+	font-family:  'Aldrich', sans-serif;
+	
+}
+
+/* actual form */
+
+#the-form {
+	
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 1220px) {
+
+#form-box {
+	height: 53vw;
+}
+
+#message {
+	width: 31vw;
+	height: 23vw;
+	
+}
+
+	
+	
+	
+}
+
+@media only screen and (max-width: 800px) {
+#form-box {
+	clear: both;
+	
+	margin: 0 auto;
+	float: none;
+	width: 80%;
+	height: 550px;
+}
+
+#big-box {
+	height: 250px;
+}
+
+#paragraph {
+	margin-top: 30px;
+	float: none;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 15px;
+}
+
+
+#message {
+	width: 98%;
+	height: 300px;
+	
+}
+
+
+#logo-top-left {
+	font-size: 27px;
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+#logo-top-left {
+	
+	font-size: 35px;
+	
+}
+
+
+#address {
+	font-size: 20px;
+	top: 150px;
+}
+
+#phone-number {
+	font-size: 20px;
+	top: 200px;
+	
+}
+
+	
+	
+	
+}
+
